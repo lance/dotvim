@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/lanceball/Dev/RHT/torquebox/src/torquebox'
+let g:netrw_dirhist_2='/Users/lanceball/Dev/RHT/torquebox/src/torquebox/system'
+let g:netrw_dirhist_3='/Users/lanceball/.rvm/gems/jruby-1.6.7@torquebox'
