@@ -10,3 +10,6 @@
 [submodule "bundle/comments.vim"]
 	path = bundle/comments.vim
 	url = https://github.com/vim-scripts/comments.vim.git
+[submodule "bundle/L9"]
+	path = bundle/L9
+	url = https://github.com/vim-scripts/L9.git
