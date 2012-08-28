@@ -7,3 +7,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/comments.vim"]
+	path = bundle/comments.vim
+	url = https://github.com/vim-scripts/comments.vim.git
