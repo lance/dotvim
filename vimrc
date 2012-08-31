@@ -1,3 +1,6 @@
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
+
 " tabs and indents
 set tabstop=2
 set smarttab
@@ -132,5 +135,4 @@ syntax on
   colorscheme tomorrow-night
 "end
 
-call pathogen#infect()
 
