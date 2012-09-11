@@ -40,6 +40,7 @@ set autoread
 " default mapleader=\ but that's awkward, use comma
 let mapleader = ','
 let g:mapleader = ','
+let maplocalleader = '\'
 
 
 "Delete in normal mode to switch off highlighting till next search and clear messages...
