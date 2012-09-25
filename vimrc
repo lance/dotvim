@@ -125,15 +125,12 @@ nnoremap <Space> <PageDown>
 
 " colors
 syntax on
-"colorscheme blue
-"set background=dark
-"if has("gui_macvim")
-"  set background=light
-"  colorscheme solarized
-"else
+if has("gui_macvim")
+  set background=light
+  colorscheme tomorrow
+  set guifont=Source_Code_Pro:h14
+else
   set background=dark
-  "colorscheme desert
   colorscheme tomorrow-night
-"end
-
+end
 
