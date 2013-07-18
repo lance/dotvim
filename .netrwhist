@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/lanceball/Dev/RHT/torquebox/src/torquebox'
 let g:netrw_dirhist_2='/Users/lanceball/Dev/RHT/torquebox/src/torquebox/system'
 let g:netrw_dirhist_3='/Users/lanceball/.rvm/gems/jruby-1.6.7@torquebox'
 let g:netrw_dirhist_4='/Users/lanceball/Desktop/rubyhoedown/demo/ideabox/config'
 let g:netrw_dirhist_5='/Users/lanceball/src/dotfiles'
+let g:netrw_dirhist_6='/Users/lanceball/.zprezto'
+let g:netrw_dirhist_7='/Users/lanceball/Documents/Textual Transcripts/chat.freenode.net/Channels/#dynjs'
+let g:netrw_dirhist_8='/Users/lanceball/src/AssJazz/vert.x/build/vert.x-2.0.0-beta3-SNAPSHOT/sys-mods/org.projectodd~nodyn~0.1.1-SNAPSHOT/lib'
