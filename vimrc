@@ -126,8 +126,8 @@ nnoremap <Space> <PageDown>
 " colors
 syntax on
 if has("gui_macvim")
-  set background=light
-  colorscheme Tomorrow
+  set background=dark
+  colorscheme Tomorrow-Night
   set guifont=Source_Code_Pro:h14
 else
   set background=dark
