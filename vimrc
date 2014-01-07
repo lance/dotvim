@@ -114,6 +114,9 @@ map gtl <C-W>g<S-F>
 set laststatus=2
 set statusline=%{GitBranch()}
 
+" requires syntastic plugin
+" set statusline += %{SyntasticStatuslineFlag()}
+
 nnoremap <Space> <PageDown>
 
 " Common code snippits. Just trying these out to see how I do with macros
@@ -126,13 +129,11 @@ nnoremap <Space> <PageDown>
 " colors
 syntax on
 if has("gui_macvim")
-  set background=dark
-  colorscheme Tomorrow-Night
   set guifont=Source_Code_Pro:h14
-else
-  set background=dark
-  colorscheme Tomorrow-Night
 end
+set background=dark
+"colorscheme slate
+colorscheme Tomorrow-Night-Bright
 
 " Command shell in a buffer
 " Usage: :Shell <command>
@@ -151,3 +152,9 @@ function! s:ExecuteInShell(command)
   echo 'Shell command ' . command . ' executed.'
 endfunction
 command! -complete=shellcmd -nargs=+ Shell call s:ExecuteInShell(<q-args>)
+
+" set clipboard=unnamed
+au BufNewFile,BufRead *.ejs set filetype=html
+
+" Help out :CtrlP a little bit
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class
