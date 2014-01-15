@@ -24,6 +24,7 @@ set scrolloff=9999
 " screen begin scrolling 5 (for example) lines before
 " the bottom
 set ruler
+set number
 
 " Searching behavior
 set incsearch     " incremental search
@@ -158,3 +159,16 @@ au BufNewFile,BufRead *.ejs set filetype=html
 
 " Help out :CtrlP a little bit
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class
+
+" vim-airline options
+" let g:airline#extensions#tabline#enabled = 1
+
+" tmuxline
+let g:tmuxline_powerline_separators = 0
+let g:tmuxline_separators = {
+    \ 'left' : '',
+    \ 'left_alt': '>',
+    \ 'right' : '',
+    \ 'right_alt' : '<',
+    \ 'space' : ' '}
+
